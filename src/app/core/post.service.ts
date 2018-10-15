@@ -16,8 +16,7 @@ export class PostService {
 
   posts$ = new BehaviorSubject<Post[]>(null);
 
-  getPosts() {
-    // return this.http.get<Post[]>(ApiUrls.posts);
+  fetchPosts() {
     this.http.get<Post[]>(ApiUrls.posts).subscribe(value => this.posts$.next(value));
   }
 

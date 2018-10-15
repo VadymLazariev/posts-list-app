@@ -2,21 +2,9 @@
   "posts": [
     {
       "userId": 3,
-      "id": 26,
-      "title": "est et quae odit qui non123",
-      "body": "similique esse doloribus nihil accusamus\nomnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus\nperspiciatis cum ut laudantium\nomnis aut molestiae vel vero123123123123123123"
-    },
-    {
-      "userId": 3,
       "id": 27,
-      "title": "quasi id et eos tenetur aut quo autem",
+      "title": "quasi id et eos tenetur aut quo autem123",
       "body": "eum sed dolores ipsam sint possimus debitis occaecati\ndebitis qui qui et\nut placeat enim earum aut odit facilis\nconsequatur suscipit necessitatibus rerum sed inventore temporibus consequatur"
-    },
-    {
-      "userId": 3,
-      "id": 28,
-      "title": "delectus ullam et corporis nulla voluptas sequi",
-      "body": "non et quaerat ex quae ad maiores\nmaiores recusandae totam aut blanditiis mollitia quas illo\nut voluptatibus voluptatem\nsimilique nostrum eum"
     },
     {
       "userId": 3,
@@ -451,9 +439,14 @@
       "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
     },
     {
-      "title": "Qwwerrr",
-      "body": "qweryyty",
-      "id": 101
+      "id": 101,
+      "title": "Lorem Ipsum",
+      "body": "Lorem"
+    },
+    {
+      "title": "Some new title",
+      "body": "Some new body text",
+      "id": 102
     }
   ],
   "comments": [],

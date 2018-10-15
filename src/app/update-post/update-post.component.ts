@@ -23,7 +23,7 @@ export class UpdatePostComponent implements OnInit {
       body: this.editPostForm.controls.body.value
     };
     this.postService.putPost(post, post.id).subscribe(
-      () => this.postService.getPosts()
+      () => this.postService.fetchPosts()
     );
   }
 

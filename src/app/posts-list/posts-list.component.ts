@@ -16,9 +16,8 @@ export class PostsListComponent implements OnInit {
     this.loadPosts();
   }
   loadPosts() {
-    this.postService.getPosts();
+    this.postService.fetchPosts();
     this.posts$ = this.postService.posts$;
-    //this.posts$ = this.postService.getPosts();
   }
   deletePost(id) {
     this.postService.deletePost(id).subscribe(  () => this.loadPosts());

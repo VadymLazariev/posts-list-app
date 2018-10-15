@@ -20,7 +20,7 @@ export class AddPostComponent implements OnInit {
       title: this.addPostForm.controls.title.value,
       body: this.addPostForm.controls.body.value
     };
-    this.postService.addPost(post).subscribe( () => this.postService.getPosts());
+    this.postService.addPost(post).subscribe( () => this.postService.fetchPosts());
   }
 
   cancel() {
