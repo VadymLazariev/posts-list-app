@@ -1,0 +1,8 @@
+<form [formGroup] = editPostForm (ngSubmit)="submit()" class="formGroup">
+    <input class="title" type="text" placeholder="Title" formControlName = "title">
+    <textarea class="body" name="Body" cols="30" rows="10" placeholder="Type text..." formControlName = "body"></textarea>
+    <div class="btn-container">
+        <button class="btn" type="submit">Submit</button>
+        <button class="btn" type="submit" (click)="cancel()">Cancel</button>
+    </div> 
+</form>

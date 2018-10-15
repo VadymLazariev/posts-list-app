@@ -1,0 +1,11 @@
+<section class="container">
+  <ng-container *ngFor="let post of posts$ | async; let i = index; trackBy:i;">
+    <div class="post">
+      <button class="btn"  (click)="addToStorage(post)">Edit</button>
+      <button class="btn" (click)="deletePost(post.id)">Delete</button>
+      <h2 class="post__title">{{post.title}}</h2>
+      <p class="post__body">{{post.body}}</p>
+    </div>
+  </ng-container>
+  <button class="btn btn--round" routerLink="/add-post">Add</button>
+</section>
